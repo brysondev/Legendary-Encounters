@@ -1,0 +1,33 @@
+{
+  "name": "worldgeneration:jirachi_path",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 1,
+      "element": {
+        "location": "worldgeneration:jirachi_encounter/road1",
+        "processors": "minecraft:empty",
+		"projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "worldgeneration:jirachi_encounter/road2",
+        "processors": "minecraft:empty",
+		"projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {	
+      "weight": 1,
+      "element": {
+        "location": "worldgeneration:jirachi_encounter/road3",
+        "processors": "minecraft:empty",
+		"projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

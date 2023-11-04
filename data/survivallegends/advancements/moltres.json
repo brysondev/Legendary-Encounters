@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "cobblemon:sun_stone"
+    },
+    "title": "The air is getting warmer around you...",
+    "description": "Summon Moltres using a Beacon and four Sun Stones",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "survivallegends:allbirds",
+  "criteria": {
+    "stone_use": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": ["cobblemon:sun_stone"],
+                  "count": 4
+                }
+              }
+            }
+          }
+        ],
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": ["minecraft:beacon"]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["stone_use"]],
+  "rewards": {
+    "function": "survivallegends:moltres"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "marshadow-1",
+      "pokemon": "marshadow",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "50-55",
+      "weight": 3.0,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [ "minecraft:mangrove_swamp" ]  
+      }
+    }
+  ]
+}

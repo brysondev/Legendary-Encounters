@@ -1,0 +1,6 @@
+{
+    "values": [
+        "conversation_engine:init",
+        "survivallegends:on_load"
+    ]
+}

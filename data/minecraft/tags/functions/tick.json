@@ -1,0 +1,9 @@
+{
+    "values": [
+        "conversation_engine:ce_tick",
+        "survivallegends:loop",
+        "survivallegends:check_distance",
+        "survivallegends:spawner/spawner_loop",
+        "survivallegends:puzzles/skypuzzle"
+    ]
+}

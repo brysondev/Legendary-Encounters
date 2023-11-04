@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "victini-1",
+      "pokemon": "victini",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "50-55",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [ "minecraft:crimson_forest" ]  
+      }
+    }
+  ]
+}

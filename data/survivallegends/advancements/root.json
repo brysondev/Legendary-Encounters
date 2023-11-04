@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "cobblemon:star_sweet"
+    },
+    "title": "Legendary Encounters",
+    "description": "A mysterious aura surrounds you...",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+	"background": "minecraft:textures/block/coal_block.png"
+  },
+  "criteria": {
+        "yak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": 0,
+                            "max": 320
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

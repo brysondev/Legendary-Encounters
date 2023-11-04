@@ -1,0 +1,3 @@
+execute if entity @p[tag=masterballquest] run execute as @e[tag=masterballseeker,type=minecraft:armor_stand] at @s run setblock ~ ~7 ~ minecraft:air replace
+execute if entity @p[tag=masterballquest] run execute as @e[tag=masterballseeker,type=minecraft:armor_stand] run execute as @e[tag=tracked] at @s run execute as @e[tag=masterballseeker,type=minecraft:armor_stand,sort=nearest,limit=1] run kill @s
+execute if entity @p[tag=masterballquest] run tellraw @s "..! a door has opened"

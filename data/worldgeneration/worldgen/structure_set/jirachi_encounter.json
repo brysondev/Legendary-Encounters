@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "worldgeneration:jirachi_main",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 300,
+    "separation": 200,
+    "salt": 121541467       
+    }       
+  }

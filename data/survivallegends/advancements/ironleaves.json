@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "cobblemon:dubious_disc"
+    },
+    "title": "Mechanical Mayhem",
+    "description": "Summon Iron Leaves using a Beacon and a Dubious Disk",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "survivallegends:root",
+  "criteria": {
+    "stone_use": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": ["cobblemon:dubious_disc"],
+                  "count": 1
+                }
+              }
+            }
+          }
+        ],
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": ["minecraft:beacon"]
+              },
+              "biome": "minecraft:end_highlands"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["stone_use"]],
+  "rewards": {
+    "function": "survivallegends:has_advancement_ironleaves"
+  }
+}

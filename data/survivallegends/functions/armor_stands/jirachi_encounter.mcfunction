@@ -1,0 +1,4 @@
+execute as @a at @s if entity @e[tag=jirachiencounter,sort=nearest,limit=1] run execute as @e[tag=tracked,type=minecraft:armor_stand] at @s run function survivallegends:spawn_jirachi
+execute as @a at @s if entity @e[tag=jirachiencounter,sort=nearest,limit=1] run execute as @e[tag=tracked,type=minecraft:armor_stand] at @s run particle minecraft:cloud ~ ~4 ~ 0.1 0.1 0.1 0.1 20 force
+execute as @a at @s if entity @e[tag=jirachiencounter,sort=nearest,limit=1] run execute as @e[tag=tracked,type=minecraft:armor_stand] at @s run particle minecraft:explosion ~ ~4 ~ 0.1 0.1 0.1 0.1 20 force
+execute as @a at @s if entity @e[tag=jirachiencounter,sort=nearest,limit=1] run execute as @e[tag=tracked,type=minecraft:armor_stand] run execute as @e[tag=tracked] at @s run execute as @e[tag=jirachiencounter,type=minecraft:armor_stand,sort=nearest,limit=1] run kill @s

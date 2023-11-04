@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "jirachi-1",
+      "pokemon": "jirachi",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 3.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [ "#cobblemon:is_overworld" ], "timeRange": "night"
+      }
+    }
+  ]
+}
