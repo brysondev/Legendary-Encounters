@@ -1,6 +1,3 @@
 {
-    "values": [
-        "conversation_engine:init",
-        "survivallegends:on_load"
-    ]
+  "values": ["conversation_engine:init", "survivallegends:on_load"]
 }
